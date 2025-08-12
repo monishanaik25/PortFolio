@@ -57,10 +57,10 @@ export default function MouseAura() {
       <div
         ref={auraRef}
         className="pointer-events-none fixed top-0 left-0 w-20 h-20 rounded-full z-[9998] mix-blend-difference transition-transform duration-150 ease-out"
-        style={{
-          background: 'radial-gradient(circle, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 60%)',
-          transform: `translate3d(${coords.x}px, ${coords.y}px, 0)`,
-        }}
+        // style={{
+        //   background: 'radial-gradient(circle, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 60%)',
+        //   transform: `translate3d(${coords.x}px, ${coords.y}px, 0)`,
+        // }}
       />
       <div ref={sparkleContainerRef} className="fixed top-0 left-0 w-full h-full pointer-events-none z-[9999]" />
     </>
