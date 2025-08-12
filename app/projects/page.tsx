@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FaReact } from 'react-icons/fa';
-import { GiClothes, GiLoincloth, GiPowerGenerator } from 'react-icons/gi';
+import {  GiPowerGenerator } from 'react-icons/gi';
 import { ImProfile } from 'react-icons/im';
 import { RiNextjsFill } from 'react-icons/ri';
 import { SiRedux, SiTailwindcss, SiTypescript, SiVercel } from 'react-icons/si';
@@ -69,7 +69,7 @@ const projects = [
       { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-cyan-400" /> },
       { name: 'Vercel', icon: <SiVercel className="text-black" /> },
     ],
-    link: 'https://pradeepnaik.dev',
+    link: 'https://port-folio-nine-theta-78.vercel.app/',
     image: '/PortFolio.png',
   },
 ];

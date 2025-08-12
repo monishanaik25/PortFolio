@@ -6,7 +6,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Pradeep Naik | Front-End Developer',
+  title: 'Monisha Naik | Front-End Developer',
   description: 'Crafting modern web experiences with React, Next.js, and TypeScript.',
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-50 backdrop-blur-md bg-white/70 shadow-md border-b border-orange-300 px-4 sm:px-6 py-3 sm:py-4">
           <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-4">
             <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-orange-600 whitespace-nowrap">
-              <a href="/">PRADEEP NAIK</a>
+              <a href="/">MONISHA NAIK</a>
             </h1>
 
             {/* Nav */}
