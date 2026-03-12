@@ -13,12 +13,7 @@ const contactItems = [
     value: "naikmonisha7@gmail.com",
     link: "mailto:naikmonisha7@gmail.com",
   },
-  {
-    icon: <IoCall className="text-green-600 text-2xl" />,
-    label: "Phone",
-    value: "+91 9353314834",
-    link: "tel:+919353314834",
-  },
+ 
   {
     icon: <FaLinkedin className="text-blue-700 text-2xl" />,
     label: "LinkedIn",
