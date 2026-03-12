@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { BiLogoGmail } from "react-icons/bi";
-import { IoCall } from "react-icons/io5";
+//import { IoCall } from "react-icons/io5";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 
