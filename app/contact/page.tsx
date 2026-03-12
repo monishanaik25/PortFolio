@@ -5,6 +5,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineLocationOn } from "react-icons/md";
 
+
 const contactItems = [
   {
     icon: <BiLogoGmail className="text-red-600 text-2xl" />,
